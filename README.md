@@ -16,22 +16,22 @@ make them clearer.
 
 So we have the following files :
 
-• main.cpp file containing the main code, our test functions and the main function
-• Option.cpp and Option.hpp files for creating our Option class
-• Binomial.cpp and Binomial.hpp files for creating our Binomial class and applying the
+- main.cpp file containing the main code, our test functions and the main function
+- Option.cpp and Option.hpp files for creating our Option class
+- Binomial.cpp and Binomial.hpp files for creating our Binomial class and applying the
 Binomial method
-• Monte_Carlo.cpp and Monte_Carlo.hpp files to create our Monte-Carlo class and formalise
+- Monte_Carlo.cpp and Monte_Carlo.hpp files to create our Monte-Carlo class and formalise
 the Monte-Carlo method in code
-• Volatility_estimator.cpp and Volatility_estimator.hpp files to estimate the volatility
+-  Volatility_estimator.cpp and Volatility_estimator.hpp files to estimate the volatility
 of our underlying asset
 
 In the main.cpp, we created two test functions test1 and test2. They are void functions
 that return the price of the option with the Binomial Method and also with the Monte-Carlo
 Method. It allows us to compare the results that we find with the two methods.
 Here is a more detailed explanation :
-• test1() gives the price of a call option, with Apple being the underlying asset, with both
+- test1() gives the price of a call option, with Apple being the underlying asset, with both
 the Binomial Method and the Monte-Carlo Method
-• test2() gives the price of a put option, with Apple being the underlying asset, with both
+- test2() gives the price of a put option, with Apple being the underlying asset, with both
 the Binomial Method and the Monte-Carlo Method
 
 One could try one function at a time to see that our code works.
